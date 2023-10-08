@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+   
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100wh;
+}
+.contanir{
+    
+    width: 400px;
+    height: 250px;
+    
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.heading{
+    color: #8781ce;
+    font-size: 1.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.date-cont{
+    margin-top: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #8781ce;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    border-radius: 7px;
+   
+}
+#date-data{
+    
+    border: none;
+    width: 50%;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+#cal-but{
+    font-size: 1.3rem;
+    background-color: #e2dada;
+    font-weight: 400;
+    text-align: center;
+    width: 40%;
+    height:70% ;
+    border: none;
+    border-radius: 5px;
+    
+    border: none;
+
+}
+
+#date-data{
+    background-color:#e2dada;
+    height: 70%;
+}
+.data{
+    
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#output-date{
+    height: 100%;
+    width: 25%;
+    background-color:  #8781ce;
+    border-radius: 7px;
+    
+}
+.dob-text{
+    height: 50%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#year-data{
+    height: 50%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+#month-data{
+    height: 50%;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#day-data{
+    height: 50%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 400px) {
+    .contanir {
+     width: 100%;
+    }
+    #cal-but{
+        font-size: 1rem;
+    }
+    .dob-text{
+        font-size: 1.1rem;
+    }
+  }
